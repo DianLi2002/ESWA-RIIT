@@ -1,0 +1,11 @@
+# Core dependencies
+torch>=1.13
+einops>=0.6.0
+numpy>=1.21
+scipy>=1.7.0
+tqdm>=4.62.0
+
+# Optional: only used by the data-preparation scripts in utils/ and by the
+# FLOPs counter at the bottom of model/RIIT.py
+h5py>=3.0.0
+thop>=0.1.1

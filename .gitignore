@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Local assistant workspace data (not part of the project)
+.workbuddy-ai/
+
+# Datasets and intermediate caches
+Datasets/
+data/
+*.npy
+*.mat
+
+# Generated during training / evaluation
+train_loss/
+val_results/
