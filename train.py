@@ -35,6 +35,8 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', type=int, default=500, help='Number of training epochs')
     parser.add_argument('--loss_function', type=str, default='char_sam_loss', help='Name of the loss function to use')
     parser.add_argument('--lambda_sam', type=float, default=1.0, help='lambda for the physics-informed loss')
+    parser.add_argument('--grad_clip', type=float, default=0.0,
+                        help='Max norm for gradient clipping. 0 disables clipping (default, as in the paper)')
     
     parser.add_argument('--method_name', type=str, default='riit', help='Name of the method to use')
     parser.add_argument('--ex_name', type=str, default='_dim64', help='Name of the ex_name')

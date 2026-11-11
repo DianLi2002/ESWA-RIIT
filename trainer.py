@@ -153,7 +153,9 @@ def Trainer(opt):
          
             # MODIFIED: backward() 会自动处理梯度聚合
             loss_total.backward()
-            torch.nn.utils.clip_grad_norm_(generator.parameters(), max_norm=1.0)
+            # Gradient clipping is disabled by default (--grad_clip 0), matching the paper.
+            if getattr(opt, 'grad_clip', 0) and opt.grad_clip > 0:
+                torch.nn.utils.clip_grad_norm_(generator.parameters(), max_norm=opt.grad_clip)
             optimizer_G.step()
 
             iters_done = epoch * len(train_loader) + index
