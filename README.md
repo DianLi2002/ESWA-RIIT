@@ -375,7 +375,7 @@ rmse:0.0471	psnr:29.3243	ergas:11.6121	sam:3.1384	ssim:0.9114
 
 | File | Dataset | Trained epochs | Notes |
 |:--|:--|:--:|:--|
-| `checkpoints/riit_dim64_bjtu.pth` | BJTU-UVA | 499 | Real-world HSI, 31 bands |
+| `checkpoints/riit_dim64_bjtu.pth` | BJTU-UVA | 500 | Real-world HSI, 31 bands |
 | `checkpoints/riit_dim64_bjtu_e.pth` | BJTU-UVA-E | 50 | 10 measured illuminant conditions |
 | `checkpoints/riit_dim64_icvl.pth` | ICVL | 500 | Simulated hard degradation |
 
