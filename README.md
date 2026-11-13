@@ -423,7 +423,6 @@ If you find this work useful, please consider citing:
 
 - The **BJTU-UVA / BJTU-UVA-E** benchmarks for real-world automatic spectral calibration.
 - The **BGU ICVL** dataset for the hyperspectral image patches.
-- The LayerNorm / gated feed-forward design follows [Restormer](https://github.com/swz30/Restormer); we thank the authors for releasing their code.
 
 ---
 
