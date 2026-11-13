@@ -441,6 +441,6 @@ You are free to use, modify and redistribute the code, including for commercial 
 
 ## 📬 Contact
 
-**Dian Li** — [alidnnn@163.com](mailto:alidnnn@163.com) · GitHub: [@DianLi2002](https://github.com/DianLi2002)
+**Dian Li** — [andorld@163.com](mailto:andorld@163.com) · GitHub: [@Andor-Li](https://github.com/Andor-Li)
 
 For questions about the code, please open an issue. For questions about the paper, feel free to reach out by email.
